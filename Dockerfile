@@ -12,6 +12,8 @@ RUN apt-get -qq update && \
   texlive-luatex \
   texlive-pstricks \
   texlive-xetex \
+  latexmk \
+  git \
   && apt-get clean
 
 # Pull the pandoc release
